@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color:#ECECEC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+body {
+  background-color:#ECECEC;
+}
+
+p {
+  font-size: calc(5px + 2vmin);
+}
+a {
+  font-size: calc(5px + 2vmin);
+}
+
+h1 {
+  font-family: 'Alegreya', serif;
+}
+h2 {
+  text-align: right;
+  padding-right: 25%;
+}
+
+#wrapper {
+  margin: auto;
+  width:1000px;
+  clear:both;
+}
+#first {
+  padding-top: 2%;
+  width: 25%;
+  float:left;
+  font-family: 'Alegreya', serif;
+}
+#second {
+  width: 40%;
+  float:left;
+  text-align: left;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+#third {
+  width: 35%;
+  float:left;
+  text-align: left;
+  font-family: 'Alegreya', serif;
+}
