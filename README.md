@@ -1,4 +1,5 @@
-## Sam's Website
-
-This site was created in React.
-
+# Sam's website
+I built a clean and simple website that features my professional life by displaying my:
+	
+	- Work Experience 
+	- Projects

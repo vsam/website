@@ -5,6 +5,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
+				<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 				<link href="https://fonts.googleapis.com/css?family=Alegreya|Cormorant+Garamond|Sorts+Mill+Goudy" rel="stylesheet"></link>
 				<header className="App-header">
 					<h1>Sam Vedernikoff</h1>					
@@ -41,12 +42,13 @@ class App extends Component {
 								</p>
 							</div>
 							<div id="third">
-								<p className="item">Android (2018)</p>
-								<p className="item">Java (2017)</p>
-								<p className="item">Javascript (2016)</p>
+								<p>Android (2018)</p>
+								<p>Java (2017)</p>
+								<p>Javascript (2016)</p>
 							</div>
 						</div>
 						<hr style={{width:1000}}/>
+						<p>Contact Info: samvedernikoff@gmail.com</p>
 					
 				</body>
 			</div>
