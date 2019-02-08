@@ -38,7 +38,7 @@ class App extends Component {
 									<a href="https://github.com/vsam/property-database">Property Database</a>
 								</p>
 								<p>
-									<a href="https://github.com/vsam/FB-Acquaintances">Facebook Acquaintances</a>
+									<a href="https://github.com/vsam/App-Sync-Companion">App Sync Companion</a>
 								</p>
 							</div>
 							<div id="third">
