@@ -35,10 +35,10 @@ class App extends Component {
 									<a href="https://github.com/vsam/TouchTop">App Sync</a>
 								</p>
 								<p>
-									<a href="https://github.com/vsam/property-database">Property Database</a>
+									<a href="https://github.com/vsam/App-Sync-Companion">App Sync Companion</a>
 								</p>
 								<p>
-									<a href="https://github.com/vsam/App-Sync-Companion">App Sync Companion</a>
+									<a href="https://github.com/vsam/property-database">Property Database</a>
 								</p>
 							</div>
 							<div id="third">
