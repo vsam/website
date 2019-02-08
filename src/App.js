@@ -43,8 +43,8 @@ class App extends Component {
 							</div>
 							<div id="third">
 								<p>Android (2018)</p>
+								<p>Javascript (2018)</p>
 								<p>Java (2017)</p>
-								<p>Javascript (2016)</p>
 							</div>
 						</div>
 						<hr style={{width:1000}}/>
