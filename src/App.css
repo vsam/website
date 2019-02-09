@@ -10,6 +10,18 @@
   font-size: calc(10px + 2vmin);
 }
 
+@media screen and (max-device-width: 500px) {
+  h1 {
+      font-size: 56px; /* Normally 70px */
+  }
+i.fa {
+      /* Targets font-awesome icons */
+      font-size: 22px; /* Normally 26px */
+      padding-left: 6px; /* Normally 12px */
+      padding-right: 6px; /* Normally 12px */
+  }
+}
+
 body {
   background-color:#ECECEC;
 }
