@@ -1,0 +1,24 @@
+li {
+    list-style: none;
+}
+
+#experience_list {
+    background: white;
+    max-height: 400px;
+    overflow: auto;
+}
+
+#achieve_logo {
+    width: 150px;
+    height: 150px;
+}
+
+#occuspace_logo {
+    width: 150px;
+    height: 150px;
+}
+
+#john_stewart_logo {
+    width: 150px;
+    height: 150px;
+}

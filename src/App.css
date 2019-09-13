@@ -1,29 +1,10 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color:#ECECEC;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-@media screen and (max-device-width: 500px) {
-  h1 {
-      font-size: 56px; /* Normally 70px */
-  }
-i.fa {
-      /* Targets font-awesome icons */
-      font-size: 22px; /* Normally 26px */
-      padding-left: 6px; /* Normally 12px */
-      padding-right: 6px; /* Normally 12px */
-  }
-}
-
+/* controls the color of the website background */
 body {
-  background-color:#ECECEC;
+  background:#ECECEC;
+}
+
+section {
+  margin-top: 10%; 
 }
 
 p {
@@ -36,31 +17,53 @@ a {
 
 h1 {
   font-family: 'Alegreya', serif;
+  background-color: grey;
+  padding-bottom: 15px;
+  text-align: center;
 }
 h2 {
-  text-align: right;
-  padding-right: 30%;
+  text-align: center;
+  background: grey;
+  padding-bottom: 15px;
 }
 
-#wrapper {
-  margin: auto;
-  width:1000px;
-  clear:both;
+h3 {
+  text-align: center;
 }
-#first {
-  padding-top: 2%;
-  width: 25%;
-  float:left;
-  font-family: 'Alegreya', serif;
-}
-#second {
-  width: 40%;
-  float:left;
-  text-align: left;
+
+body > a {
   font-family: 'Sorts Mill Goudy', serif;
 }
-#third {
-  width: 35%;
+
+/* create a column for all the main lists */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.list_column {
   float:left;
-  text-align: left;
+  width: 49%;
+}
+
+.list_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#contact_info img {
+  padding-left:25px;
+}
+
+#main-list {
+  margin: auto;
+  max-width: 400px;
 }
