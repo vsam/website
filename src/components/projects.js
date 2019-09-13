@@ -18,9 +18,7 @@ class Projects extends Component {
                                 <img src={Ride} id="achieve_logo"/>
                             </div>
                             <div class="list_column">
-                                <p>
-                                    <a href="https://ride-f1e96.web.app/">Ride+</a>
-                                </p>
+                                <a href="https://ride-f1e96.web.app/">Ride+</a>
                                 <p>Javascript (2019)</p>
                             </div>
                         </div>
@@ -31,9 +29,7 @@ class Projects extends Component {
                                 <img src={AppSync} id="appsync_logo"/>
                             </div>
                             <div class="list_column">
-                                <p>
-                                    <a href="https://github.com/vsam/TouchTop">App Sync</a>
-                                </p>
+                                <a href="https://github.com/vsam/TouchTop">App Sync</a>
                                 <p>Android (2018)</p>
                             </div>
                         </div>
@@ -44,12 +40,8 @@ class Projects extends Component {
                                 <img src={AppSyncComp} id="appsync_logo"/>
                             </div>
                             <div class="list_column">
-                                <p>
-                                    <a href="https://github.com/vsam/App-Sync-Companion">App Sync Companion</a>
-                                </p>
-                                <p>
-                                    Javascript (2018)
-                                </p>
+                                <a href="https://github.com/vsam/App-Sync-Companion">App Sync Companion</a>
+                                <p>Javascript (2018)</p>
                             </div>
                         </div>
                     </li>
@@ -59,12 +51,8 @@ class Projects extends Component {
                             <img src={Apartment} id="achieve_logo"/>
                             </div>
                             <div class="list_column">
-                                <p>
-                                    <a href="https://github.com/vsam/property-database">Property Database</a>
-                                </p>
-                                <p>
-                                    Java (2017)
-                                </p>
+                                <a href="https://github.com/vsam/property-database">Property Database</a>
+                                <p>Java (2017)</p>
                             </div>
                         </div>
                     </li>

@@ -8,10 +8,6 @@ section {
   margin-top: 10%; 
 }
 
-p {
-  font-size: calc(5px + 2vmin);
-  font-family: 'Alegreya', serif;
-}
 a {
   font-size: calc(5px + 2vmin);
 }
@@ -74,8 +70,11 @@ body > a {
   max-width: 400px;
 }
 
-#inner_list > li > div > div > p {
+/* controls all the p tags in the inner list */
+#inner_list p {
   font-size: 18px;
+  font-family: 'Alegreya', serif;
+
 }
 
 /* controls the color of the list item background */
@@ -118,4 +117,11 @@ body > a {
 
 #contact_info {
   background-color: white;
+}
+
+/* in projects changes the size of the link font */
+#inner_list a {
+  font-size: 18px;
+  font-family: 'Sorts Mill Goudy', serif;
+  color: black;
 }
