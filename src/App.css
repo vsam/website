@@ -3,6 +3,7 @@ body {
   background:#ECECEC;
 }
 
+/* controls the placing of the mainn-lists from the top of the page */
 section {
   margin-top: 10%; 
 }
@@ -17,14 +18,18 @@ a {
 
 h1 {
   font-family: 'Alegreya', serif;
-  background-color: grey;
+  background-image: linear-gradient(to left,#2E2449,#25366A);
   padding-bottom: 15px;
   text-align: center;
+  color: white;
+  margin-bottom: 0px;
 }
 h2 {
   text-align: center;
-  background: grey;
+  background-image: linear-gradient(to left,#2E2449,#25366A);
   padding-bottom: 15px;
+  color: white;
+  margin-bottom: 0px !important;
 }
 
 h3 {
@@ -57,6 +62,7 @@ body > a {
   content: "";
   display: table;
   clear: both;
+  margin-bottom:10px;
 }
 
 #contact_info img {
@@ -66,4 +72,28 @@ body > a {
 #main-list {
   margin: auto;
   max-width: 400px;
+}
+
+#inner_list > li > div > div > p {
+  font-size: 18px;
+}
+
+/* controls the color of the list item background */
+#inner_list > li > div {
+  background: white;
+}
+
+/* controls the dimensions of the unorder lists */
+#inner_list {
+  max-height: 400px;
+  overflow: auto;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col"] {
+    width: 100%;
+  }
 }

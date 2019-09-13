@@ -6,7 +6,7 @@ class Projects extends Component {
         return(
             <section id="main-list">
                 <h2>Projects</h2>
-                <ul id="project_list">
+                <ul id="inner_list">
                     <li>
                         <div>
                             <p>

@@ -2,12 +2,6 @@ li {
     list-style: none;
 }
 
-#experience_list {
-    background: white;
-    max-height: 400px;
-    overflow: auto;
-}
-
 #achieve_logo {
     width: 150px;
     height: 150px;
@@ -19,6 +13,8 @@ li {
 }
 
 #john_stewart_logo {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
+    padding-left: 6%;
+    padding-top: 6%;
 }

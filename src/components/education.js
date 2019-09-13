@@ -6,10 +6,11 @@ class Education extends Component {
         return(
             <section id="main-list">
                 <h2>Education</h2>
-                <ul id="education_list">
+                <ul id="inner_list">
                     <li>
                         <div>
                             <p>University of California - San Diego</p>
+                            <p>Major: Math and Computer Science</p>
                         </div>
                         <div>
                             <p>Relevant Coursework:</p>

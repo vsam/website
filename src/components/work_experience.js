@@ -1,16 +1,18 @@
 import React, { Component } from "react";
 import "./work_experience.css";
+import Achieve from '../images/achieve.png';
+import Occuspace from '../images/occuspace.png';
 
 class WorkExperience extends Component {
     render() {
         return (
             <section id="main-list">
                 <h2>Work Experience</h2>
-                <ul id="experience_list">
+                <ul id="inner_list">
                     <li>
                         <div class="list_row">
                             <div class="list_column">
-                                <img src="https://media.licdn.com/dms/image/C560BAQF5YZQUbmh1tA/company-logo_400_400/0?e=1576713600&v=beta&t=-Ol_zZzOaATOnkFK8LNgefw-f5hVtgltE5ElnNLVC5k" id="achieve_logo"/>
+                                <img src={Achieve} id="achieve_logo"/>
                             </div>
                             <div class="list_column">
                                 <p>Achieve Internet</p>
@@ -22,7 +24,7 @@ class WorkExperience extends Component {
                     <li>
                         <div class="list_row">
                             <div class="list_column">
-                                <img src="https://media.licdn.com/dms/image/C560BAQFpjnw6Gg74bQ/company-logo_400_400/0?e=1576713600&v=beta&t=imIKLb4v13icuScwrCvpgxw2wZgh-MF67Ir58EeQj1k" id="occuspace_logo"/>
+                                <img src={Occuspace} id="occuspace_logo"/>
                             </div>
                             <div class="list_column">
                                 <p>Occuspace</p>
