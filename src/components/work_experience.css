@@ -18,3 +18,9 @@ li {
     padding-left: 6%;
     padding-top: 6%;
 }
+
+#appsync_logo {
+    padding: 5% 0%; 
+    width: 150px;
+    height: 120px;
+}

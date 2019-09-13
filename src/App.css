@@ -97,3 +97,25 @@ body > a {
     width: 100%;
   }
 }
+/* controls the font for the objective */
+#objective > p {
+  font-size: 22px;
+  font-family: 'Sorts Mill Goudy', serif;
+  text-align: center;
+}
+
+/* positions the icons for the contact info */
+.icon_column {
+  float: left;
+  width: 25%;
+  margin-left: 6%;
+  
+}
+
+#objective {
+  background-color: white;
+}
+
+#contact_info {
+  background-color: white;
+}
