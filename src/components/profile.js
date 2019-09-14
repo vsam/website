@@ -26,7 +26,7 @@ class Profile extends Component {
         return(
             <section id="main-list">
                 <h1>Sam Vedernikoff</h1>
-                <img src={Sam} width="400" height="400"/>
+                <img src={Sam} width="100%" height="100%"/>
                 <div id="objective">
                     <h2>Objective:</h2>
                     <p>I am looking for a full time software engineering position as a web developer where I can build backend services and deliver dynamic content to clients.</p>

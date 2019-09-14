@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import './education.css';
 
 class Education extends Component {
     render() {
@@ -14,7 +13,7 @@ class Education extends Component {
                         </div>
                         <div>
                             <p>Relevant Coursework:</p>
-                            <p>Data Structures, Algorithms, Software Engineering, etc</p>
+                            <p>Advanced Data Structures, Design and Analysis of Algorithms, Software Engineering, Computer Systems, Software Tools, Theory of Computation, Object Oriented Design, Statistical Methods...</p>
                         </div>
                     </li>
                 </ul>

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import './projects.css';
 import Ride from '../images/CSE110_LOGO.png';
 import AppSync from '../images/AppSync.png';
 import AppSyncComp from '../images/AppSyncComp.png';

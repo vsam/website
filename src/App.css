@@ -3,15 +3,7 @@ body {
   background:#ECECEC;
 }
 
-/* controls the placing of the mainn-lists from the top of the page */
-section {
-  margin-top: 10%; 
-}
-
-a {
-  font-size: calc(5px + 2vmin);
-}
-
+/* controls how my name is displayed */
 h1 {
   font-family: 'Alegreya', serif;
   background-image: linear-gradient(to left,#2E2449,#25366A);
@@ -20,6 +12,7 @@ h1 {
   color: white;
   margin-bottom: 0px;
 }
+/* controls how the category headers are displayed */
 h2 {
   text-align: center;
   background-image: linear-gradient(to left,#2E2449,#25366A);
@@ -28,32 +21,28 @@ h2 {
   margin-bottom: 0px !important;
 }
 
-h3 {
-  text-align: center;
-}
-
-body > a {
-  font-family: 'Sorts Mill Goudy', serif;
-}
-
-/* create a column for all the main lists */
+/* create the columns for all the main lists */
 .column {
   float: left;
   width: 25%;
 }
 
 /* Clear floats after the columns */
+/* creates a row for the lists */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
+/* creates the columns for the list items (icon and text)*/
 .list_column {
   float:left;
   width: 49%;
+  text-align: center;
 }
 
+/* creates the rows for the columns of the list items */
 .list_row:after {
   content: "";
   display: table;
@@ -61,10 +50,12 @@ body > a {
   margin-bottom:10px;
 }
 
+/* controls the linkedin, github and gmail icons  */
 #contact_info img {
   padding-left:25px;
 }
 
+/* controls the width of the profile, experience, project and education lists */
 #main-list {
   margin: auto;
   max-width: 400px;
@@ -84,12 +75,13 @@ body > a {
 
 /* controls the dimensions of the unorder lists */
 #inner_list {
-  max-height: 400px;
+  max-height: 1000px;
   overflow: auto;
   padding-left: 0px;
   margin: 0px;
 }
 
+/* makes the website responsive to mobile devices */
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="col"] {
@@ -124,4 +116,15 @@ body > a {
   font-size: 18px;
   font-family: 'Sorts Mill Goudy', serif;
   color: black;
+}
+/* changes the font size of the text under education */
+#inner_list > li > div > p {
+  font-size: 22px;
+  font-family: 'Sorts Mill Goudy', serif;
+  text-align: center;
+}
+
+#inner_list > li > div > p {
+  margin-top: 0px;
+  margin-bottom:10px;
 }
