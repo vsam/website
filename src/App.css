@@ -7,18 +7,20 @@ body {
 h1 {
   font-family: 'Alegreya', serif;
   background-image: linear-gradient(to left,#2E2449,#25366A);
-  padding-bottom: 15px;
+  padding: 8px 0px;
   text-align: center;
   color: white;
-  margin-bottom: 0px;
+  margin-top: 0px !important;
+  margin-bottom: 5px !important;
 }
 /* controls how the category headers are displayed */
 h2 {
   text-align: center;
   background-image: linear-gradient(to left,#2E2449,#25366A);
-  padding-bottom: 15px;
+  padding: 8px 0px;
   color: white;
-  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 5px !important;
 }
 
 /* create the columns for all the main lists */
@@ -127,4 +129,8 @@ h2 {
 #inner_list > li > div > p {
   margin-top: 0px;
   margin-bottom:10px;
+}
+
+#objective > p {
+  margin-bottom: 5px !important;
 }
