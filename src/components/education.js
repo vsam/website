@@ -13,7 +13,7 @@ class Education extends Component {
                         </div>
                         <div>
                             <p>Relevant Coursework:</p>
-                            <p>Advanced Data Structures, Design and Analysis of Algorithms, Software Engineering, Computer Systems, Software Tools, Theory of Computation, Object Oriented Design, Statistical Methods...</p>
+                            <p>Advanced Data Structures, Design and Analysis of Algorithms, Software Engineering, Computer Systems, Software Tools, Theory of Computation, Object Oriented Design, Statistical Methods, etc.</p>
                         </div>
                     </li>
                 </ul>
