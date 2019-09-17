@@ -9,7 +9,7 @@ class Education extends Component {
                     <li>
                         <div>
                             <p>University of California - San Diego</p>
-                            <p>Major: Math and Computer Science</p>
+                            <p><span id="major">Major:</span> Math and Computer Science</p>
                         </div>
                         <div>
                             <p>Relevant Coursework:</p>

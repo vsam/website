@@ -28,11 +28,11 @@ class Profile extends Component {
                 <h1>Sam Vedernikoff</h1>
                 <img src={Sam} width="100%" height="100%"/>
                 <div id="objective">
-                    <h2>Objective:</h2>
-                    <p>I am looking for a full time software engineering position as a web developer where I can build backend services and deliver dynamic content to clients.</p>
+                    <h2>Bio</h2>
+                    <p>I am a Math-CS student at University of California - San Diego. I am expected to graduate with my Bachelors in Science in December, 2019. For my last quarter, I am taking a course for Web Client Languages and a course for Predictive Analytics. I am looking for a full time software engineering position as a web developer where I can build backend services and deliver dynamic content to clients.</p>
                 </div>
                 <div id="contact_info">
-                    <h2>Contact Info:</h2>
+                    <h2>Contact Info</h2>
                     <div class="row">  
                         <div class="icon_column">
                             <a href="https://www.linkedin.com/in/vsam/">

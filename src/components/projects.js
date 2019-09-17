@@ -14,7 +14,9 @@ class Projects extends Component {
                     <li>
                         <div class="list_row">
                             <div class="list_column">
-                                <img src={Ride} id="achieve_logo"/>
+                                <a href="https://ride-f1e96.web.app/">
+                                    <img src={Ride} id="achieve_logo"/>
+                                </a>
                             </div>
                             <div class="list_column">
                                 <a href="https://ride-f1e96.web.app/">Ride+</a>
@@ -25,10 +27,12 @@ class Projects extends Component {
                     <li>
                         <div class="list_row">
                             <div class="list_column">
-                                <img src={AppSync} id="appsync_logo"/>
+                                <a href="https://github.com/vsam/App-Sync">
+                                    <img src={AppSync} id="appsync_logo"/>
+                                </a>
                             </div>
                             <div class="list_column">
-                                <a href="https://github.com/vsam/TouchTop">App Sync</a>
+                                <a href="https://github.com/vsam/App-Sync">App Sync</a>
                                 <p>Android (2018)</p>
                             </div>
                         </div>
@@ -36,7 +40,9 @@ class Projects extends Component {
                     <li>
                         <div class="list_row">
                             <div class="list_column">
-                                <img src={AppSyncComp} id="appsync_logo"/>
+                                <a href="https://github.com/vsam/App-Sync-Companion">
+                                    <img src={AppSyncComp} id="appsync_logo"/>
+                                </a>
                             </div>
                             <div class="list_column">
                                 <a href="https://github.com/vsam/App-Sync-Companion">App Sync Companion</a>
@@ -47,7 +53,9 @@ class Projects extends Component {
                     <li>
                         <div class="list_row">
                             <div class="list_column"> 
-                            <img src={Apartment} id="achieve_logo"/>
+                                <a href="https://github.com/vsam/property-database">
+                                    <img src={Apartment} id="achieve_logo"/>
+                                </a>
                             </div>
                             <div class="list_column">
                                 <a href="https://github.com/vsam/property-database">Property Database</a>
