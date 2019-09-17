@@ -157,12 +157,12 @@ h2 {
   height: 120px;
 }
 
-#inner_list p:nth-child(1) {
+#school {
   font-weight:bold;
 }
 
 #major {
-  font-weight:bold;
+  font-weight: bold;
 }
 
 #objective > p {

@@ -8,12 +8,11 @@ class Education extends Component {
                 <ul id="inner_list">
                     <li>
                         <div>
-                            <p>University of California - San Diego</p>
+                            <p id="school">University of California - San Diego</p>
                             <p><span id="major">Major:</span> Math and Computer Science</p>
                         </div>
                         <div>
-                            <p>Relevant Coursework:</p>
-                            <p>Advanced Data Structures, Design and Analysis of Algorithms, Software Engineering, Computer Systems, Software Tools, Theory of Computation, Object Oriented Design, Statistical Methods, etc.</p>
+                            <p><span id="major">Relevant Coursework:</span> Advanced Data Structures, Design and Analysis of Algorithms, Software Engineering, Computer Systems, Software Tools, Theory of Computation, Object Oriented Design, Statistical Methods, etc.</p>
                         </div>
                     </li>
                 </ul>
