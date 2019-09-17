@@ -29,7 +29,7 @@ class Profile extends Component {
                 <img src={Sam} width="100%" height="100%"/>
                 <div id="objective">
                     <h2>Bio</h2>
-                    <p>I am a Math-CS student at University of California - San Diego. I am expected to graduate with my Bachelors in Science in December, 2019. For my last quarter, I am taking a course for Web Client Languages and a course for Predictive Analytics. I am looking for a full time software engineering position as a web developer where I can build backend services and deliver dynamic content to clients.</p>
+                    <p>I am a Math-CS student at University of California - San Diego. I am expected to graduate with my Bachelors in Science in December, 2019. For my last quarter, I am taking a course in Web Client Languages and a course in Predictive Analytics. I am looking for a full time software engineering position as a web developer where I can build backend services and deliver dynamic content to clients.</p>
                 </div>
                 <div id="contact_info">
                     <h2>Contact Info</h2>
