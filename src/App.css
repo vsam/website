@@ -58,9 +58,10 @@ h2 {
 }
 
 /* controls the width of the profile, experience, project and education lists */
+/* 400px */
 #main-list {
   margin: auto;
-  max-width: 400px;
+  max-width: 95%;
 }
 
 /* controls all the p tags in the inner list */
@@ -88,6 +89,31 @@ h2 {
   /* For mobile phones: */
   [class*="col"] {
     width: 100%;
+  }
+  
+  #main-list {
+    margin: auto !important;
+    max-width: 400px !important;
+  }
+  #achieve_logo {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  #occuspace_logo {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  #john_stewart_logo {
+    width: 130px !important;
+    height: 130px !important;
+    padding: 6% 0% !important;
+  }
+
+  #appsync_logo {
+    padding-top: 8% !important;
+    width: 150px !important;
+    height: 120px !important;
   }
 }
 /* controls the font for the objective */
@@ -134,27 +160,28 @@ h2 {
 #objective > p {
   margin-bottom: 5px !important;
 }
-
+/* 150 x 150 */
 #achieve_logo {
-  width: 150px;
-  height: 150px;
+  width: 90%;
+  height: 90%;
 }
 
 #occuspace_logo {
-  width: 150px;
-  height: 150px;
+  width: 90%;
+  height: 90%;
 }
-
+/* 130 x 130 */
 #john_stewart_logo {
-  width: 130px;
-  height: 130px;
+  width: 85%;
+  height: 85%;
   padding: 6% 0%;
 }
 
+/* 150 x 120 */
 #appsync_logo {
   padding-top: 8%;
-  width: 150px;
-  height: 120px;
+  width: 90%;
+  height: 83%;
 }
 
 #school {
